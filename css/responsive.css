@@ -1,0 +1,97 @@
+/* ---------------------------
+Media Query 1199 px
+---------------------------- */
+@media (max-width:1199px){
+    /* Navbar Section */
+    .header .nav-item{
+        padding: 0 1rem;
+    }
+    .header .nav-item a {
+        font-size: 1.2rem;
+    }
+    /* Banner Section */
+    .banner h2 {
+        font-size: 5rem;
+    }
+    .banner {
+        padding-top: 16%;
+    }
+}
+
+
+/* ---------------------------
+Media Query 991 px
+---------------------------- */
+@media (max-width: 991px){
+    /* Navbar Section */
+    .header .navbar-collapse {
+        margin-left: 4rem;
+    }
+
+    /* Banner Section */
+    
+}
+
+/* ---------------------------
+Media Query 1200
+---------------------------- */
+
+/* ---------------------------
+Media Query 767 px
+---------------------------- */
+@media (max-width:767px){
+    .appoinment .ap-content {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    /* Navbar Section */
+    .header .navbar-collapse {
+        margin-left: 0;
+        background-color: #fcf5ee;
+    }
+    .header .nav-item {
+        padding: 1rem 0;
+    }
+    /* Banner Section */
+    .banner .img-section{
+        display: none;
+    }
+    .banner {
+        padding-top: 13rem;
+    }
+    .banner h2 {
+        line-height: 5.5rem;
+    }
+    /* About Section */
+    .about .jasmine{
+        display: none;
+    }
+    /* Procuder Section */
+    .p-gap {
+        margin: 2rem 0;
+    }
+    /* Team Section */
+    .team .col-md-4 {
+        padding-bottom: 16rem;
+    }
+    .team .col-md-4:nth-child(3) {
+        padding-bottom: 0;
+    }
+    /* Footer Section */
+    .footer ul {
+        display: none;
+    }
+    .footer .f-logo img {
+        margin-bottom: 0;
+    }
+}
+
+/* ---------------------------
+Media Query 377 px
+---------------------------- */
+@media (max-width: 377px){
+    /* Banner Section */
+    .banner .margin-btn {
+        margin-top: 1rem;
+    }
+}

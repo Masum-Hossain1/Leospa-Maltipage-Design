@@ -1,0 +1,540 @@
+/* ------------------------------
+Table Of Content
+------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rufina:400,700&display=swap");
+
+/* -----------------------------
+Custom Predifind Code
+------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+html{
+    font-size: 10px;
+    font-family: sans-serif;;
+}
+h2,h3,h4,h5,h6{
+    font-family: 'Rufina', serif;
+    color: #1e2528;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #263a41;
+    font-weight: 500;
+}
+h2{
+    font-size: 6rem;
+    line-height: 7.5rem;
+}
+h3{
+    font-size: 4.2rem;
+}
+h4{
+    font-size: 2.2rem;
+}
+h6{
+    font-size: 2.2rem;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+section{
+    display: block;
+    padding: 5rem 0;
+    position: relative;
+}
+.main-btn{
+    font-size: 1.6rem;
+    background-color: #ff817e;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: .8rem;
+    min-width: 17rem;
+    padding: 2rem 1.5rem;
+}
+.btn-round{
+    border-radius: 5rem;
+}
+.main-btn:hover{
+    color: #212529;
+}
+.second-btn{
+    font-size: 1.6rem;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.8rem;
+    min-width: 17rem;
+    padding: 2rem 1.5rem;
+}
+.main-title {
+    text-align: center;
+}
+.title {
+    margin-bottom: 3.2rem;
+}
+.subtitle {
+    margin-bottom: 7rem;
+    color: #888;
+}
+
+
+
+/* ------------------------------
+Header Section
+------------------------------- */
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header .navbar-toggler {
+    border: 0;
+    line-height: 2;
+    color: #ff817e;
+    box-shadow: none;
+}
+.header .nav-item{
+    padding: 0 2rem;
+    text-transform: uppercase;
+}
+.header .container{
+    align-items: end;
+}
+.header .navbar-collapse{
+    margin-left: 16rem;
+}
+.header .navbar{
+    padding-top: 0;
+}
+.header .nav-item .nav-link{
+    color: #263a41;
+}
+.header .nav-item .nav-link.active,
+.header .nav-item .nav-link:hover {
+    color: #ff817e;
+}
+/* -----------------------------
+Banner Section
+------------------------------- */
+.banner .img-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 43.3%;
+    z-index: -1;
+}
+.banner{
+    background: url(../img/leaf.png) no-repeat left center/12.5%;
+    padding: 12% 0;
+}
+.banner .banner-content span{
+    color: #ff817e;
+    display: block;
+    margin-bottom: 2rem;
+}
+.banner .banner-content p{
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    color: #555;
+}
+/* -----------------------------
+About Section
+------------------------------- */
+.about >img{
+    max-width: 16rem;
+    max-width: 16rem;
+}
+.about .china{
+    position: absolute;
+    top: 0;
+    left: 16%;
+
+}
+.about .jasmine{
+    position: absolute;
+    top: 50%;
+    right: 13.5rem;
+    width: 10rem;
+}
+.about .about-content .butterfly{
+    max-width: 16rem;
+    margin: 0 auto 4rem;
+}
+.about .about-content{
+    margin-bottom: 7rem;
+    text-align: center;
+    position: relative;
+}
+.about{
+    text-align: center;
+}
+.about .about-content span{
+    color: #555;
+    display: block;
+    margin-bottom: 2.7rem;
+}
+.about .about-content h3{
+    margin-bottom: 3.2rem;
+}
+.about .about-content p{
+    color: #555;
+}
+
+/* -----------------------------
+Service Section
+------------------------------- */
+.service .service-img{
+    position: relative;
+}
+.service .overview{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: #ff817e;
+    visibility: hidden;
+}
+.service .overview-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+}
+.service .service-img:hover .overview{
+    opacity: 0.8;
+    visibility: visible;
+}
+.service .icon{
+    max-width: 5rem;
+    margin: 2rem auto;
+}
+
+/* ------------------------------
+Procuder Section
+------------------------------- */
+.procuder .card-title {
+    margin-bottom: 3.5rem;
+}
+.procuder .card-subtitle {
+    margin-bottom: 2.2rem;
+}
+.procuder .card-text {
+    margin-bottom: 4rem;
+    color: #6c6c6f;
+}
+.procuder .card{
+    padding: 2rem;
+}
+.procuder .card:hover a{
+    background-color: #ff817e;
+    color: #fff;
+}
+.procuder .card a{
+    margin-bottom: 3rem;
+}
+.procuder .card-body {
+    padding: 0;
+}
+
+/* ---------------------------
+Testimonial Section
+------------------------------ */
+.testimonial {
+    background: #fff9f8;
+}
+.testimonial .quote{
+    width: 6rem;
+    margin: 0 auto 4.5rem;
+}
+.testimonial p{
+    color: #888;
+    margin-bottom: 4.4rem;
+} 
+.testimonial .client{
+    width: 7.6rem;
+    height: 7.6rem;
+    border-radius: 50%;
+    margin: 0 auto 2.2rem;
+}
+.testimonial .carousel-inner {
+    padding: 5rem 0;
+}
+.testimonial .p-text {
+    font-size: 2.2rem;
+    color: #555;
+    font-family: 'Rufina', serif;
+}
+.testimonial span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #555;
+}
+
+/* ---------------------------
+Team Section
+----------------------------- */
+.team {
+    padding-bottom: 15rem;
+}
+.team .team-content {
+    text-align: center;
+    padding: 2rem 0 2.5rem;
+    position: absolute;
+    bottom: -20%;
+    background: #fff;
+    width: 100%;
+    height: 11rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 20px #f0f0f0;
+}
+.team .card:hover .team-content {
+    height: 15rem;
+}
+.team .team-content span {
+    color: #6c6c6f;
+}
+.team .card:hover .social-icon {
+    opacity: 1;
+    visibility: visible;
+}
+.team .card {
+    border: none;
+    outline: none;
+}
+.team .social-icon a {
+    border: 1px solid #30383b;
+    width: 3rem;
+    height: 3rem;
+    color: #30383b;
+    line-height: 3rem;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.team .social-icon a:hover {
+    background: #ff817e;
+    color: #fff;
+    border: 1px solid #ff817e;
+}
+.team .social-icon {
+    position: absolute;
+    bottom: 17%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* ------------------------------------
+Appoinment Section
+------------------------------------- */
+.appoinment-img {
+    background: #fff9f8;
+    align-items: center;
+}
+.appoinment .ap-content {
+    padding-left: 7rem;
+}
+.appoinment .form-control {
+    border: none;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #555;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.appoinment input {
+    border: none;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #555;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.appoinment .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #212529;
+    background: transparent;
+}
+.appoinment .form-select {
+    border: none;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #555;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.appoinment .main-btn {
+    padding: 2.2rem 1.5rem;
+}
+
+/* -----------------------------
+Blog
+-------------------------------- */
+.blog .card-title {
+    margin-bottom: 3.5rem;
+}
+.blog .card-subtitle {
+    margin-bottom: 2.2rem;
+}
+.blog .card-text {
+    margin-bottom: 4rem;
+    color: #6c6c6f;
+}
+.blog .card{
+    padding: 2rem;
+}
+.blog .card:hover a{
+    background-color: #ff817e;
+    color: #fff;
+}
+.blog .card a{
+    margin-bottom: 3rem;
+}
+.blog .card-body {
+    padding: 0;
+}
+
+/* -------------------------------
+Contact Form
+---------------------------------- */
+.contact .icon-link a {
+    width: 5rem;
+    height: 5rem;
+    background: #ff817e;
+    line-height: 5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.contact .icon-link {
+    margin-right: 3rem;
+}
+.contact {
+    color: #888;
+}
+.contact .link-a a {
+    color: #888;
+    display: block;
+    line-height: 3rem;
+    transition: all .2s ease-in-out;
+}
+.contact .link-a a:hover {
+    color: #ff817e;
+}
+.contact .form-control {
+    border: none;
+    padding: 1.5rem 1rem;
+    border: 1px solid #999;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    background: transparent;
+}
+.contact .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #212529;
+    background: transparent;
+}
+.contact .main-btn {
+    margin-top: 3rem;
+}
+
+/* ------------------------------
+Footer Section
+-------------------------------- */
+.footer .f-logo img {
+    width: 14rem;
+    margin: 3rem auto;
+}
+.footer {
+    background: #fff9f8;
+    text-align: center;
+}
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+.footer ul li {
+    margin: 0 2rem;
+    text-transform: uppercase;
+}
+.footer ul li a:hover {
+    color: #ff817e;
+}
+.footer .f-icon a {
+    border-right: 1px solid #888;
+}
+.footer i {
+    padding: 3rem 1rem;
+    font-size: 1.7rem;
+}
+.footer i:hover {
+    color: #ff817e;
+}
+.footer .f-copy {
+    font-size: 1.2rem;
+    color: #999;
+    padding-top: 2rem;
+}
+.footer .f-copy a {
+    text-transform: uppercase;
+    color: #ff817e;
+    font-size: 1.2rem;
+}
+
+/* ----------------------------
+About Page Design
+------------------------------*/
+.about-banner{
+    background: url(../img/leaf.png) no-repeat left center/9.5%;
+    padding: 12% 0;
+}
+.about-banner span{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.about-banner h2 {
+    font-size: 8rem;
+    color: #ff817e;
+}
